@@ -1,0 +1,16 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "axis_to_ddr_writer",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESET",
+            "option": [{
+                "name": "variable",
+                "value": "frame_count_inner",
+                "positionalBoolean": "4"
+              }]
+          }
+        }]
+    }]}
