@@ -1,0 +1,2805 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Mar 10 08:41:27 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103091221) to (Rev. 2103100840)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 's_axi_AXILiteS'
+
+-Upgrade has added interface 'threshold_V' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 's_axi_AXILiteS_ARADDR'
+
+-Upgrade has removed port 's_axi_AXILiteS_ARREADY'
+
+-Upgrade has removed port 's_axi_AXILiteS_ARVALID'
+
+-Upgrade has removed port 's_axi_AXILiteS_AWADDR'
+
+-Upgrade has removed port 's_axi_AXILiteS_AWREADY'
+
+-Upgrade has removed port 's_axi_AXILiteS_AWVALID'
+
+-Upgrade has removed port 's_axi_AXILiteS_BREADY'
+
+-Upgrade has removed port 's_axi_AXILiteS_BRESP'
+
+-Upgrade has removed port 's_axi_AXILiteS_BVALID'
+
+-Upgrade has removed port 's_axi_AXILiteS_RDATA'
+
+-Upgrade has removed port 's_axi_AXILiteS_RREADY'
+
+-Upgrade has removed port 's_axi_AXILiteS_RRESP'
+
+-Upgrade has removed port 's_axi_AXILiteS_RVALID'
+
+-Upgrade has removed port 's_axi_AXILiteS_WDATA'
+
+-Upgrade has removed port 's_axi_AXILiteS_WREADY'
+
+-Upgrade has removed port 's_axi_AXILiteS_WSTRB'
+
+-Upgrade has removed port 's_axi_AXILiteS_WVALID'
+
+-Upgrade has added port 'threshold_V'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Mar  9 12:25:02 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103081811) to (Rev. 2103091221)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 'interrupt'
+
+-Upgrade has added interface 'ap_ctrl' (xilinx.com:interface:acc_handshake:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'interrupt'
+
+-Upgrade has added port 'ap_done'
+
+-Upgrade has added port 'ap_idle'
+
+-Upgrade has added port 'ap_ready'
+
+-Upgrade has added port 'ap_start'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 18:11:35 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103081745) to (Rev. 2103081811)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 'ap_ctrl'
+
+-Upgrade has added interface 'interrupt' (xilinx.com:signal:interrupt:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ap_done'
+
+-Upgrade has removed port 'ap_idle'
+
+-Upgrade has removed port 'ap_ready'
+
+-Upgrade has removed port 'ap_start'
+
+-Upgrade has added port 'interrupt'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 17:46:02 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_2_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_2_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 2103081525) to (Rev. 2103081740)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_2_0'.
+
+
+-Upgrade has removed interface 'custom_intr'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_2_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 17:46:02 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_1_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 2103081525) to (Rev. 2103081740)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_1_0'.
+
+
+-Upgrade has removed interface 'custom_intr'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_1_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 17:46:02 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_0_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 2103081525) to (Rev. 2103081740)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_0_0'.
+
+
+-Upgrade has removed interface 'custom_intr'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 17:46:02 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103031221) to (Rev. 2103081745)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 'threshold_V'
+
+-Upgrade has added interface 's_axi_AXILiteS' (xilinx.com:interface:aximm:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'threshold_V'
+
+-Upgrade has added port 's_axi_AXILiteS_ARADDR'
+
+-Upgrade has added port 's_axi_AXILiteS_ARREADY'
+
+-Upgrade has added port 's_axi_AXILiteS_ARVALID'
+
+-Upgrade has added port 's_axi_AXILiteS_AWADDR'
+
+-Upgrade has added port 's_axi_AXILiteS_AWREADY'
+
+-Upgrade has added port 's_axi_AXILiteS_AWVALID'
+
+-Upgrade has added port 's_axi_AXILiteS_BREADY'
+
+-Upgrade has added port 's_axi_AXILiteS_BRESP'
+
+-Upgrade has added port 's_axi_AXILiteS_BVALID'
+
+-Upgrade has added port 's_axi_AXILiteS_RDATA'
+
+-Upgrade has added port 's_axi_AXILiteS_RREADY'
+
+-Upgrade has added port 's_axi_AXILiteS_RRESP'
+
+-Upgrade has added port 's_axi_AXILiteS_RVALID'
+
+-Upgrade has added port 's_axi_AXILiteS_WDATA'
+
+-Upgrade has added port 's_axi_AXILiteS_WREADY'
+
+-Upgrade has added port 's_axi_AXILiteS_WSTRB'
+
+-Upgrade has added port 's_axi_AXILiteS_WVALID'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 15:26:01 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_2_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_2_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 1604151144) to (Rev. 2103081525)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_2_0'.
+
+
+-Upgrade has added interface 'custom_intr' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_2_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 15:26:01 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_1_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 1604151144) to (Rev. 2103081525)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_1_0'.
+
+
+-Upgrade has added interface 'custom_intr' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_1_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  8 15:26:01 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_to_ddr_writer_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_to_ddr_writer_0_0 (xilinx.com:hls:axis_to_ddr_writer:1.0) from (Rev. 1604151144) to (Rev. 2103081525)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_to_ddr_writer_0_0'.
+
+
+-Upgrade has added interface 'custom_intr' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_to_ddr_writer_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'custom_intr'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Mar  3 12:22:38 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103031210) to (Rev. 2103031221)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Mar  3 12:10:37 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103031138) to (Rev. 2103031210)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 'stream_out_ref_V'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'stream_out_ref_V_TDATA'
+
+-Upgrade has removed port 'stream_out_ref_V_TREADY'
+
+-Upgrade has removed port 'stream_out_ref_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Mar  3 11:41:43 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103031121) to (Rev. 2103031138)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Mar  3 11:21:56 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Background_subtractor_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Background_subtractor_0_0 (xilinx.com:hls:Background_subtractor:1.0) from (Rev. 2103030944) to (Rev. 2103031121)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Background_subtractor_0_0'.
+
+
+-Upgrade has removed interface 'stream_new_V_V'
+
+-Upgrade has removed interface 'stream_out_V_V'
+
+-Upgrade has removed interface 'stream_out_ref_V_V'
+
+-Upgrade has removed interface 'stream_ref_V_V'
+
+-Upgrade has added interface 'stream_new_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'stream_out_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'stream_out_ref_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'stream_ref_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Background_subtractor_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'stream_new_V_V_TDATA'
+
+-Upgrade has removed port 'stream_new_V_V_TREADY'
+
+-Upgrade has removed port 'stream_new_V_V_TVALID'
+
+-Upgrade has removed port 'stream_out_V_V_TDATA'
+
+-Upgrade has removed port 'stream_out_V_V_TREADY'
+
+-Upgrade has removed port 'stream_out_V_V_TVALID'
+
+-Upgrade has removed port 'stream_out_ref_V_V_TDATA'
+
+-Upgrade has removed port 'stream_out_ref_V_V_TREADY'
+
+-Upgrade has removed port 'stream_out_ref_V_V_TVALID'
+
+-Upgrade has removed port 'stream_ref_V_V_TDATA'
+
+-Upgrade has removed port 'stream_ref_V_V_TREADY'
+
+-Upgrade has removed port 'stream_ref_V_V_TVALID'
+
+-Upgrade has added port 'stream_new_V_TDATA'
+
+-Upgrade has added port 'stream_new_V_TREADY'
+
+-Upgrade has added port 'stream_new_V_TVALID'
+
+-Upgrade has added port 'stream_out_V_TDATA'
+
+-Upgrade has added port 'stream_out_V_TREADY'
+
+-Upgrade has added port 'stream_out_V_TVALID'
+
+-Upgrade has added port 'stream_out_ref_V_TDATA'
+
+-Upgrade has added port 'stream_out_ref_V_TREADY'
+
+-Upgrade has added port 'stream_out_ref_V_TVALID'
+
+-Upgrade has added port 'stream_ref_V_TDATA'
+
+-Upgrade has added port 'stream_ref_V_TREADY'
+
+-Upgrade has added port 'stream_ref_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_2 (xilinx.com:ip:xlconstant:1.1) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_1 (xilinx.com:ip:xlconstant:1.1) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconcat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconcat_0_1 (xilinx.com:ip:xlconcat:2.1) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_axi_periph_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_axi_periph_1 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 3) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+Added parameter PCW_GP0_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_EN_MODIFIABLE_TXN with value 0 (source 'default')
+Added parameter PCW_GP1_EN_MODIFIABLE_TXN with value 0 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_proc_sys_reset_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_proc_sys_reset_0_1 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_clk_wiz_0_0 from xilinx.com:ip:clk_wiz:5.3 (Rev. 1) to xilinx.com:ip:clk_wiz:6.0 (Rev. 3)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '10.000' to '10.0' has been ignored for IP 'design_1_clk_wiz_0_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKIN2_PERIOD' from '10.000' to '10.0' has been ignored for IP 'design_1_clk_wiz_0_0'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:clk_wiz:6.0 -user_name design_1_clk_wiz_0_0
+set_property -dict "\
+  CONFIG.AXI_DRP {false} \
+  CONFIG.CALC_DONE {empty} \
+  CONFIG.CDDCDONE_PORT {cddcdone} \
+  CONFIG.CDDCREQ_PORT {cddcreq} \
+  CONFIG.CLKFB_IN_N_PORT {clkfb_in_n} \
+  CONFIG.CLKFB_IN_PORT {clkfb_in} \
+  CONFIG.CLKFB_IN_P_PORT {clkfb_in_p} \
+  CONFIG.CLKFB_IN_SIGNALING {SINGLE} \
+  CONFIG.CLKFB_OUT_N_PORT {clkfb_out_n} \
+  CONFIG.CLKFB_OUT_PORT {clkfb_out} \
+  CONFIG.CLKFB_OUT_P_PORT {clkfb_out_p} \
+  CONFIG.CLKFB_STOPPED_PORT {clkfb_stopped} \
+  CONFIG.CLKIN1_JITTER_PS {100.0} \
+  CONFIG.CLKIN1_UI_JITTER {0.010} \
+  CONFIG.CLKIN2_JITTER_PS {100.0} \
+  CONFIG.CLKIN2_UI_JITTER {0.010} \
+  CONFIG.CLKOUT1_DRIVES {BUFG} \
+  CONFIG.CLKOUT1_JITTER {469.645} \
+  CONFIG.CLKOUT1_PHASE_ERROR {476.991} \
+  CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25.175} \
+  CONFIG.CLKOUT1_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT1_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT1_USED {true} \
+  CONFIG.CLKOUT2_DRIVES {BUFG} \
+  CONFIG.CLKOUT2_JITTER {473.605} \
+  CONFIG.CLKOUT2_PHASE_ERROR {476.991} \
+  CONFIG.CLKOUT2_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {24} \
+  CONFIG.CLKOUT2_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT2_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT2_USED {true} \
+  CONFIG.CLKOUT3_DRIVES {BUFG} \
+  CONFIG.CLKOUT3_JITTER {0.0} \
+  CONFIG.CLKOUT3_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT3_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT3_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT3_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT3_USED {false} \
+  CONFIG.CLKOUT4_DRIVES {BUFG} \
+  CONFIG.CLKOUT4_JITTER {0.0} \
+  CONFIG.CLKOUT4_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT4_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT4_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT4_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT4_USED {false} \
+  CONFIG.CLKOUT5_DRIVES {BUFG} \
+  CONFIG.CLKOUT5_JITTER {0.0} \
+  CONFIG.CLKOUT5_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT5_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT5_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT5_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT5_USED {false} \
+  CONFIG.CLKOUT6_DRIVES {BUFG} \
+  CONFIG.CLKOUT6_JITTER {0.0} \
+  CONFIG.CLKOUT6_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT6_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT6_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT6_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT6_USED {false} \
+  CONFIG.CLKOUT7_DRIVES {BUFG} \
+  CONFIG.CLKOUT7_JITTER {0.0} \
+  CONFIG.CLKOUT7_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT7_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT7_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT7_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT7_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT7_USED {false} \
+  CONFIG.CLKOUTPHY_REQUESTED_FREQ {600.000} \
+  CONFIG.CLK_IN1_BOARD_INTERFACE {Custom} \
+  CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.CLK_IN_SEL_PORT {clk_in_sel} \
+  CONFIG.CLK_OUT1_PORT {clk_out1} \
+  CONFIG.CLK_OUT1_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT2_PORT {clk_out2} \
+  CONFIG.CLK_OUT2_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT3_PORT {clk_out3} \
+  CONFIG.CLK_OUT3_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT4_PORT {clk_out4} \
+  CONFIG.CLK_OUT4_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT5_PORT {clk_out5} \
+  CONFIG.CLK_OUT5_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT6_PORT {clk_out6} \
+  CONFIG.CLK_OUT6_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT7_PORT {clk_out7} \
+  CONFIG.CLK_OUT7_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_VALID_PORT {CLK_VALID} \
+  CONFIG.CLOCK_MGR_TYPE {auto} \
+  CONFIG.Component_Name {design_1_clk_wiz_0_0} \
+  CONFIG.DADDR_PORT {daddr} \
+  CONFIG.DCLK_PORT {dclk} \
+  CONFIG.DEN_PORT {den} \
+  CONFIG.DIFF_CLK_IN1_BOARD_INTERFACE {Custom} \
+  CONFIG.DIFF_CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.DIN_PORT {din} \
+  CONFIG.DOUT_PORT {dout} \
+  CONFIG.DRDY_PORT {drdy} \
+  CONFIG.DWE_PORT {dwe} \
+  CONFIG.ENABLE_CDDC {false} \
+  CONFIG.ENABLE_CLKOUTPHY {false} \
+  CONFIG.ENABLE_CLOCK_MONITOR {false} \
+  CONFIG.ENABLE_USER_CLOCK0 {false} \
+  CONFIG.ENABLE_USER_CLOCK1 {false} \
+  CONFIG.ENABLE_USER_CLOCK2 {false} \
+  CONFIG.ENABLE_USER_CLOCK3 {false} \
+  CONFIG.Enable_PLL0 {false} \
+  CONFIG.Enable_PLL1 {false} \
+  CONFIG.FEEDBACK_SOURCE {FDBK_AUTO} \
+  CONFIG.INPUT_CLK_STOPPED_PORT {input_clk_stopped} \
+  CONFIG.INPUT_MODE {frequency} \
+  CONFIG.INTERFACE_SELECTION {Enable_AXI} \
+  CONFIG.IN_FREQ_UNITS {Units_MHz} \
+  CONFIG.IN_JITTER_UNITS {Units_UI} \
+  CONFIG.JITTER_OPTIONS {UI} \
+  CONFIG.JITTER_SEL {No_Jitter} \
+  CONFIG.LOCKED_PORT {locked} \
+  CONFIG.MMCM_BANDWIDTH {OPTIMIZED} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {53.750} \
+  CONFIG.MMCM_CLKFBOUT_PHASE {0.000} \
+  CONFIG.MMCM_CLKFBOUT_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKIN1_PERIOD {10.0} \
+  CONFIG.MMCM_CLKIN2_PERIOD {10.0} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {30.500} \
+  CONFIG.MMCM_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT0_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT0_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT1_DIVIDE {32} \
+  CONFIG.MMCM_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT1_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT1_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT2_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT2_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT2_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT3_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT3_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT3_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT4_CASCADE {false} \
+  CONFIG.MMCM_CLKOUT4_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT4_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT4_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT5_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT5_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT5_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT6_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT6_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT6_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT6_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLOCK_HOLD {false} \
+  CONFIG.MMCM_COMPENSATION {ZHOLD} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {7} \
+  CONFIG.MMCM_NOTES {None} \
+  CONFIG.MMCM_REF_JITTER1 {0.010} \
+  CONFIG.MMCM_REF_JITTER2 {0.010} \
+  CONFIG.MMCM_STARTUP_WAIT {false} \
+  CONFIG.NUM_OUT_CLKS {2} \
+  CONFIG.OVERRIDE_MMCM {false} \
+  CONFIG.OVERRIDE_PLL {false} \
+  CONFIG.PHASE_DUTY_CONFIG {false} \
+  CONFIG.PLATFORM {UNKNOWN} \
+  CONFIG.PLL_BANDWIDTH {OPTIMIZED} \
+  CONFIG.PLL_CLKFBOUT_MULT {4} \
+  CONFIG.PLL_CLKFBOUT_PHASE {0.000} \
+  CONFIG.PLL_CLKIN_PERIOD {10.000} \
+  CONFIG.PLL_CLKOUT0_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT0_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT1_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT1_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT2_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT2_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT3_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT3_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT4_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT4_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT5_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT5_PHASE {0.000} \
+  CONFIG.PLL_CLK_FEEDBACK {CLKFBOUT} \
+  CONFIG.PLL_COMPENSATION {SYSTEM_SYNCHRONOUS} \
+  CONFIG.PLL_DIVCLK_DIVIDE {1} \
+  CONFIG.PLL_NOTES {None} \
+  CONFIG.PLL_REF_JITTER {0.010} \
+  CONFIG.POWER_DOWN_PORT {power_down} \
+  CONFIG.PRECISION {1} \
+  CONFIG.PRIMARY_PORT {clk_in1} \
+  CONFIG.PRIMITIVE {MMCM} \
+  CONFIG.PRIMTYPE_SEL {mmcm_adv} \
+  CONFIG.PRIM_IN_FREQ {100.000} \
+  CONFIG.PRIM_IN_JITTER {0.010} \
+  CONFIG.PRIM_IN_TIMEPERIOD {10.000} \
+  CONFIG.PRIM_SOURCE {Single_ended_clock_capable_pin} \
+  CONFIG.PSCLK_PORT {psclk} \
+  CONFIG.PSDONE_PORT {psdone} \
+  CONFIG.PSEN_PORT {psen} \
+  CONFIG.PSINCDEC_PORT {psincdec} \
+  CONFIG.REF_CLK_FREQ {100.0} \
+  CONFIG.RELATIVE_INCLK {REL_PRIMARY} \
+  CONFIG.RESET_BOARD_INTERFACE {Custom} \
+  CONFIG.RESET_PORT {reset} \
+  CONFIG.RESET_TYPE {ACTIVE_HIGH} \
+  CONFIG.SECONDARY_IN_FREQ {100.000} \
+  CONFIG.SECONDARY_IN_JITTER {0.010} \
+  CONFIG.SECONDARY_IN_TIMEPERIOD {10.000} \
+  CONFIG.SECONDARY_PORT {clk_in2} \
+  CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} \
+  CONFIG.SS_MODE {CENTER_HIGH} \
+  CONFIG.SS_MOD_FREQ {250} \
+  CONFIG.SS_MOD_TIME {0.004} \
+  CONFIG.STATUS_PORT {STATUS} \
+  CONFIG.SUMMARY_STRINGS {empty} \
+  CONFIG.USER_CLK_FREQ0 {100.0} \
+  CONFIG.USER_CLK_FREQ1 {100.0} \
+  CONFIG.USER_CLK_FREQ2 {100.0} \
+  CONFIG.USER_CLK_FREQ3 {100.0} \
+  CONFIG.USE_BOARD_FLOW {false} \
+  CONFIG.USE_CLKFB_STOPPED {false} \
+  CONFIG.USE_CLK_VALID {false} \
+  CONFIG.USE_CLOCK_SEQUENCING {false} \
+  CONFIG.USE_DYN_PHASE_SHIFT {false} \
+  CONFIG.USE_DYN_RECONFIG {false} \
+  CONFIG.USE_FREEZE {false} \
+  CONFIG.USE_FREQ_SYNTH {true} \
+  CONFIG.USE_INCLK_STOPPED {false} \
+  CONFIG.USE_INCLK_SWITCHOVER {false} \
+  CONFIG.USE_LOCKED {false} \
+  CONFIG.USE_MAX_I_JITTER {false} \
+  CONFIG.USE_MIN_O_JITTER {false} \
+  CONFIG.USE_MIN_POWER {false} \
+  CONFIG.USE_PHASE_ALIGNMENT {true} \
+  CONFIG.USE_POWER_DOWN {false} \
+  CONFIG.USE_RESET {false} \
+  CONFIG.USE_SAFE_CLOCK_STARTUP {false} \
+  CONFIG.USE_SPREAD_SPECTRUM {false} \
+  CONFIG.USE_STATUS {false} " [get_ips design_1_clk_wiz_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_c_counter_binary_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_c_counter_binary_0_0 (xilinx.com:ip:c_counter_binary:12.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_1_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_data_fifo_1_2 from xilinx.com:ip:axis_data_fifo:1.1 (Rev. 10) to xilinx.com:ip:axis_data_fifo:2.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_data_fifo_1_2'.
+
+
+-Upgrade has removed interface 'M_RSTIF'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_data_fifo_1_2'. These changes may impact your design.
+
+
+-Upgrade has removed port 'axis_data_count'
+
+-Upgrade has removed port 'm_axis_aresetn'
+
+
+4. Upgrade messages
+-------------------
+
+Added parameter HAS_WR_DATA_COUNT with value 1 (source 'default')
+Added parameter HAS_RD_DATA_COUNT with value 1 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_data_fifo_1_0 from xilinx.com:ip:axis_data_fifo:1.1 (Rev. 10) to xilinx.com:ip:axis_data_fifo:2.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_data_fifo_1_0'.
+
+
+-Upgrade has removed interface 'M_RSTIF'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_data_fifo_1_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'axis_data_count'
+
+-Upgrade has removed port 'm_axis_aresetn'
+
+
+4. Upgrade messages
+-------------------
+
+Added parameter HAS_WR_DATA_COUNT with value 1 (source 'default')
+Added parameter HAS_RD_DATA_COUNT with value 1 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_data_fifo_0_2 from xilinx.com:ip:axis_data_fifo:1.1 (Rev. 10) to xilinx.com:ip:axis_data_fifo:2.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_data_fifo_0_2'.
+
+
+-Upgrade has removed interface 'M_RSTIF'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_data_fifo_0_2'. These changes may impact your design.
+
+
+-Upgrade has removed port 'axis_data_count'
+
+-Upgrade has removed port 'm_axis_aresetn'
+
+
+4. Upgrade messages
+-------------------
+
+Added parameter HAS_WR_DATA_COUNT with value 1 (source 'default')
+Added parameter HAS_RD_DATA_COUNT with value 1 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_data_fifo_0_0 from xilinx.com:ip:axis_data_fifo:1.1 (Rev. 10) to xilinx.com:ip:axis_data_fifo:2.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_axis_data_fifo_0_0'.
+
+
+-Upgrade has removed interface 'M_RSTIF'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_data_fifo_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'axis_data_count'
+
+-Upgrade has removed port 'm_axis_aresetn'
+
+
+4. Upgrade messages
+-------------------
+
+Added parameter HAS_WR_DATA_COUNT with value 1 (source 'default')
+Added parameter HAS_RD_DATA_COUNT with value 1 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_mem_intercon_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_mem_intercon_1_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_1_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_0_1 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_gpio_1_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 11) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Feb  9 18:58:31 2021
+| Host         : DESKTOP-L6BLN1U running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 11) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Sep 25 18:31:39 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709251704) to (Rev. 1709251829)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Sep 25 17:10:26 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709081131) to (Rev. 1709251704)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sat Sep 23 14:05:18 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709061146) to (Rev. 1709081131)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'outStream_V'
+
+-Upgrade has added interface 'outStream_channel_1_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'outstream_channel_2_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'outStream_V_TDATA'
+
+-Upgrade has removed port 'outStream_V_TREADY'
+
+-Upgrade has removed port 'outStream_V_TVALID'
+
+-Upgrade has added port 'outStream_channel_1_V_TDATA'
+
+-Upgrade has added port 'outStream_channel_1_V_TREADY'
+
+-Upgrade has added port 'outStream_channel_1_V_TVALID'
+
+-Upgrade has added port 'outstream_channel_2_V_TDATA'
+
+-Upgrade has added port 'outstream_channel_2_V_TREADY'
+
+-Upgrade has added port 'outstream_channel_2_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 22 19:10:05 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709081131) to (Rev. 1709061146)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'outStream_channel_1_V'
+
+-Upgrade has removed interface 'outstream_channel_2_V'
+
+-Upgrade has added interface 'outStream_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'outStream_channel_1_V_TDATA'
+
+-Upgrade has removed port 'outStream_channel_1_V_TREADY'
+
+-Upgrade has removed port 'outStream_channel_1_V_TVALID'
+
+-Upgrade has removed port 'outstream_channel_2_V_TDATA'
+
+-Upgrade has removed port 'outstream_channel_2_V_TREADY'
+
+-Upgrade has removed port 'outstream_channel_2_V_TVALID'
+
+-Upgrade has added port 'outStream_V_TDATA'
+
+-Upgrade has added port 'outStream_V_TREADY'
+
+-Upgrade has added port 'outStream_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 22 10:22:02 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mux_sd_ov_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_mux_sd_ov_0_0 (xilinx.com:hls:mux_sd_ov:1.0) from (Rev. 1709052126) to (Rev. 1709221004)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 08 11:34:48 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709061146) to (Rev. 1709081131)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'outStream_V'
+
+-Upgrade has added interface 'outStream_channel_1_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'outstream_channel_2_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'outStream_V_TDATA'
+
+-Upgrade has removed port 'outStream_V_TREADY'
+
+-Upgrade has removed port 'outStream_V_TVALID'
+
+-Upgrade has added port 'outStream_channel_1_V_TDATA'
+
+-Upgrade has added port 'outStream_channel_1_V_TREADY'
+
+-Upgrade has added port 'outStream_channel_1_V_TVALID'
+
+-Upgrade has added port 'outstream_channel_2_V_TDATA'
+
+-Upgrade has added port 'outstream_channel_2_V_TREADY'
+
+-Upgrade has added port 'outstream_channel_2_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Sep 06 15:08:34 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709051937) to (Rev. 1709061146)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Sep 06 10:36:10 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sd_reader_v3_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_sd_reader_v3_0_0 (xilinx.com:hls:sd_reader_v3:1.0) from (Rev. 1709061030) to (Rev. 1709061034)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_sd_reader_v3_0_0'.
+
+
+-Upgrade has removed interface 'interrupt'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_sd_reader_v3_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'interrupt'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Sep 06 10:32:15 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sd_reader_v3_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sd_reader_v3_0_0 (xilinx.com:hls:sd_reader_v3:1.0) from (Rev. 1709061024) to (Rev. 1709061030)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Sep 05 21:54:17 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mux_sd_ov_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_mux_sd_ov_0_0 (xilinx.com:hls:mux_sd_ov:1.0) from (Rev. 1709011644) to (Rev. 1709052126)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Sep 05 19:40:09 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709051752) to (Rev. 1709051937)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Sep 05 17:54:03 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709011205) to (Rev. 1709051752)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Sep 05 17:36:21 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709011204) to (Rev. 1709011205)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'ap_ctrl'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Sep 05 17:35:01 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709011203) to (Rev. 1709011204)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has added interface 'ap_ctrl' (xilinx.com:interface:acc_handshake:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 01 12:03:52 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709011111) to (Rev. 1709011203)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 01 11:12:49 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1709010954) to (Rev. 1709011111)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Sep 01 09:55:34 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708311650) to (Rev. 1709010954)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Aug 31 16:51:21 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708311539) to (Rev. 1708311650)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Aug 31 15:40:35 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708301749) to (Rev. 1708311539)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Aug 30 17:52:02 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708301534) to (Rev. 1708301749)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Aug 30 15:35:36 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708291842) to (Rev. 1708301534)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Aug 29 18:43:10 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708291709) to (Rev. 1708291842)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Aug 29 17:10:29 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708291524) to (Rev. 1708291709)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Aug 29 15:25:15 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708281613) to (Rev. 1708291524)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Aug 28 17:00:55 2017
+| Host         : GamingPC-Ale running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708251724) to (Rev. 1708281613)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Aug 25 17:25:32 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708251715) to (Rev. 1708251724)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'update_intr'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'update_intr'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Aug 25 17:16:26 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708251610) to (Rev. 1708251715)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Aug 25 16:11:10 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708241712) to (Rev. 1708251610)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'.
+
+
+-Upgrade has removed interface 'frame_index_V'
+
+-Upgrade has added interface 'update_intr' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ddr_to_axis_reader_SD_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'frame_index_V'
+
+-Upgrade has added port 'update_intr'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Aug 24 17:13:28 2017
+| Host         : Bert running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_to_axis_reader_SD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_to_axis_reader_SD_0_0 (xilinx.com:hls:ddr_to_axis_reader_SD:1.0) from (Rev. 1708241655) to (Rev. 1708241712)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sat Aug 19 13:13:38 2017
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_interface_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ov7670_interface_0_1 (xilinx.com:hls:ov7670_interface:1.0) from (Rev. 1611292150) to (Rev. 1708191312)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sat Aug 19 13:13:38 2017
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_LUMA_CHROMA_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ov7670_LUMA_CHROMA_0_0 (xilinx.com:hls:ov7670_LUMA_CHROMA:1.0) from (Rev. 1702281047) to (Rev. 1708191309)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Feb 28 10:47:55 2017
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_LUMA_CHROMA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ov7670_LUMA_CHROMA_0_0 (xilinx.com:hls:ov7670_LUMA_CHROMA:1.0) from (Rev. 1702281032) to (Rev. 1702281047)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ov7670_LUMA_CHROMA_0_0'.
+
+
+-Upgrade has added interface 'enable_raw_stream' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ov7670_LUMA_CHROMA_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'outStream_CHROMA_V_V_TDATA' out differs from original direction in
+
+-Upgraded port 'outStream_CHROMA_V_V_TREADY' in differs from original direction out
+
+-Upgraded port 'outStream_CHROMA_V_V_TVALID' out differs from original direction in
+
+-Upgraded port 'outStream_LUMA_V_V_TDATA' out differs from original direction in
+
+-Upgraded port 'outStream_LUMA_V_V_TREADY' in differs from original direction out
+
+-Upgraded port 'outStream_LUMA_V_V_TVALID' out differs from original direction in
+
+-Upgrade has added port 'enable_raw_stream'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Feb 28 10:33:00 2017
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_LUMA_CHROMA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ov7670_LUMA_CHROMA_0_0 (xilinx.com:hls:ov7670_LUMA_CHROMA:1.0) from (Rev. 1702281014) to (Rev. 1702281032)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ov7670_LUMA_CHROMA_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'outStream_CHROMA_V_V_TDATA' in differs from original direction out
+
+-Upgraded port 'outStream_CHROMA_V_V_TREADY' out differs from original direction in
+
+-Upgraded port 'outStream_CHROMA_V_V_TVALID' in differs from original direction out
+
+-Upgraded port 'outStream_LUMA_V_V_TDATA' in differs from original direction out
+
+-Upgraded port 'outStream_LUMA_V_V_TREADY' out differs from original direction in
+
+-Upgraded port 'outStream_LUMA_V_V_TVALID' in differs from original direction out
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Nov 29 22:24:31 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_interface_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ov7670_interface_0_1 (xilinx.com:hls:ov7670_interface:1.0) from (Rev. 1602221016) to (Rev. 1611292150)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Nov 29 22:24:31 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_grayscale_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ov7670_grayscale_0_0 (xilinx.com:hls:ov7670_grayscale:1.0) from (Rev. 1604302038) to (Rev. 1611292153)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Nov 29 22:24:31 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_LF_valid_to_AXIS_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_LF_valid_to_AXIS_0_0 (xilinx.com:hls:LF_valid_to_AXIS:1.0) from (Rev. 1604302039) to (Rev. 1611292156)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Tue Nov 29 22:24:31 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Filter_Convolution_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_Filter_Convolution_0_1 (xilinx.com:hls:Filter_Convolution:1.0) from (Rev. 1602041240) to (Rev. 1611292223)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_axi_periph_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_axi_periph_1 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_proc_sys_reset_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_proc_sys_reset_0_1 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_clk_wiz_0_0 from xilinx.com:ip:clk_wiz:5.2 (Rev. 1) to xilinx.com:ip:clk_wiz:5.3 (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axis_data_fifo_1_0 (xilinx.com:ip:axis_data_fifo:1.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axis_data_fifo_0_0 (xilinx.com:ip:axis_data_fifo:1.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_mem_intercon_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_mem_intercon_1_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_gpio_1_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 27 17:31:33 2016
+| Host         : Asus_PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 9) to (Rev. 11)
+
