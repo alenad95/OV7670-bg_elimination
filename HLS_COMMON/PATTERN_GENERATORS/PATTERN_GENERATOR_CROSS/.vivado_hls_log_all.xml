@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dirY' is power-on initialization." projectName="PATTERN_GENERATOR_CROSS" solutionName="Zynq" date="2021-02-12T12:18:53.067+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'dirX' is power-on initialization." projectName="PATTERN_GENERATOR_CROSS" solutionName="Zynq" date="2021-02-12T12:18:53.051+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'lineY' is power-on initialization." projectName="PATTERN_GENERATOR_CROSS" solutionName="Zynq" date="2021-02-12T12:18:53.041+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'lineX' is power-on initialization." projectName="PATTERN_GENERATOR_CROSS" solutionName="Zynq" date="2021-02-12T12:18:53.032+0100" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'modeY' is power-on initialization." projectName="MY_PATTERN_GENERATOR" solutionName="solution1" date="2016-04-18T09:49:09.277+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'modeX' is power-on initialization." projectName="MY_PATTERN_GENERATOR" solutionName="solution1" date="2016-04-18T09:49:09.262+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'lineY' is power-on initialization." projectName="MY_PATTERN_GENERATOR" solutionName="solution1" date="2016-04-18T09:49:09.252+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'lineX' is power-on initialization." projectName="MY_PATTERN_GENERATOR" solutionName="solution1" date="2016-04-18T09:49:09.240+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

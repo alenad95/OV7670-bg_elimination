@@ -1,0 +1,77 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "pattern_generator",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESET",
+            "option": [{
+                "name": "variable",
+                "value": "lineX",
+                "positionalBoolean": "4"
+              }]
+          }
+        },
+        {
+          "functionName": "pattern_generator",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESET",
+            "option": [{
+                "name": "variable",
+                "value": "lineY",
+                "positionalBoolean": "4"
+              }]
+          }
+        },
+        {
+          "functionName": "pattern_generator",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESET",
+            "option": [{
+                "name": "variable",
+                "value": "modeX",
+                "positionalBoolean": "4"
+              }]
+          }
+        },
+        {
+          "functionName": "pattern_generator",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESET",
+            "option": [{
+                "name": "variable",
+                "value": "modeY",
+                "positionalBoolean": "4"
+              }]
+          }
+        },
+        {
+          "functionName": "pattern_generator",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "axis",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "outputStream",
+                "positionalBoolean": "4"
+              }
+            ]
+          }
+        }
+      ]
+    }]}

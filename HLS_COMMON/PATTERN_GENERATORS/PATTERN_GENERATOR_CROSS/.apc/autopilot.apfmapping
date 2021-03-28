@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pattern_generator.cpp" path="D:\SmartCamera-master\HLS_COMMON\PATTERN_GENERATORS\PATTERN_GENERATOR_CROSS\pattern_generator.cpp"/>
+    <originFiles name="pattern_generator.h" path="D:\SmartCamera-master\HLS_COMMON\PATTERN_GENERATORS\PATTERN_GENERATOR_CROSS\pattern_generator.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="D:\SmartCamera-master\HLS_COMMON\PATTERN_GENERATORS\PATTERN_GENERATOR_CROSS\test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

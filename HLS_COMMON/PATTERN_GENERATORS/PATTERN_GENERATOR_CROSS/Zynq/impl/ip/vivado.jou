@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb 12 12:19:08 2021
+# Process ID: 3556
+# Current directory: D:/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS/Zynq/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: D:/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS/Zynq/impl/ip/vivado.log
+# Journal file: D:/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS/Zynq/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

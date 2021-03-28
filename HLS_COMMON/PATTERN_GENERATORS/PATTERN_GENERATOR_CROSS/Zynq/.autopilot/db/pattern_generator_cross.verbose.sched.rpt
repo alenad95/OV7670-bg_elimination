@@ -1,0 +1,224 @@
+
+
+================================================================
+== Vivado HLS Report for 'pattern_generator_cross'
+================================================================
+* Date:           Fri Feb 12 12:18:52 2021
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        PATTERN_GENERATOR_CROSS
+* Solution:       Zynq
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     3.451|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +--------+--------+--------+--------+---------+
+    |     Latency     |     Interval    | Pipeline|
+    |   min  |   max  |   min  |   max  |   Type  |
+    +--------+--------+--------+--------+---------+
+    |  735423|  735423|  735423|  735423|   none  |
+    +--------+--------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |             |     Latency     | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min  |   max  |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |- Loop 1     |  735420|  735420|      1442|          -|          -|   510|    no    |
+        | + Loop 1.1  |    1440|    1440|         2|          -|          -|   720|    no    |
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 6
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 5 
+3 --> 4 2 
+4 --> 3 
+5 --> 6 
+6 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.76>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %outputStream_V), !map !10"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([24 x i8]* @pattern_generator_cr) nounwind"   --->   Operation 8 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 0, [13 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:16]   --->   Operation 9 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %outputStream_V, [5 x i8]* @p_str2, i32 1, i32 1, [5 x i8]* @p_str3, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:17]   --->   Operation 10 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecReset(i32* @lineX, i32 1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:25]   --->   Operation 11 'specreset' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecReset(i1* @dirX, i32 1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:26]   --->   Operation 12 'specreset' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecReset(i32* @lineY, i32 1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:27]   --->   Operation 13 'specreset' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecReset(i1* @dirY, i32 1, [1 x i8]* @p_str1) nounwind" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:28]   --->   Operation 14 'specreset' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%lineX_load = load i32* @lineX, align 4" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 15 'load' 'lineX_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%lineY_load = load i32* @lineY, align 4" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 16 'load' 'lineY_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (1.76ns)   --->   "br label %.loopexit" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30]   --->   Operation 17 'br' <Predicate = true> <Delay = 1.76>
+
+State 2 <SV = 1> <Delay = 2.47>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%y_0 = phi i9 [ 0, %0 ], [ %y, %.loopexit.loopexit ]"   --->   Operation 18 'phi' 'y_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%zext_ln30 = zext i9 %y_0 to i32" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30]   --->   Operation 19 'zext' 'zext_ln30' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (1.66ns)   --->   "%icmp_ln30 = icmp eq i9 %y_0, -2" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30]   --->   Operation 20 'icmp' 'icmp_ln30' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 510, i64 510, i64 510)"   --->   Operation 21 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (1.82ns)   --->   "%y = add i9 %y_0, 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30]   --->   Operation 22 'add' 'y' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "br i1 %icmp_ln30, label %6, label %.preheader.preheader" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30]   --->   Operation 23 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (1.66ns)   --->   "%icmp_ln33 = icmp ult i9 %y_0, -32" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:33]   --->   Operation 24 'icmp' 'icmp_ln33' <Predicate = (!icmp_ln30)> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 25 [1/1] (2.47ns)   --->   "%icmp_ln35_1 = icmp eq i32 %zext_ln30, %lineY_load" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 25 'icmp' 'icmp_ln35_1' <Predicate = (!icmp_ln30)> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (1.76ns)   --->   "br label %.preheader" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 26 'br' <Predicate = (!icmp_ln30)> <Delay = 1.76>
+ST_2 : Operation 27 [1/1] (2.47ns)   --->   "%icmp_ln44 = icmp eq i32 %lineX_load, 0" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:44]   --->   Operation 27 'icmp' 'icmp_ln44' <Predicate = (icmp_ln30)> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "br i1 %icmp_ln44, label %7, label %8" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:44]   --->   Operation 28 'br' <Predicate = (icmp_ln30)> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (2.47ns)   --->   "%icmp_ln46 = icmp eq i32 %lineX_load, 639" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:46]   --->   Operation 29 'icmp' 'icmp_ln46' <Predicate = (icmp_ln30 & !icmp_ln44)> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "br i1 %icmp_ln46, label %9, label %._crit_edge7" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:46]   --->   Operation 30 'br' <Predicate = (icmp_ln30 & !icmp_ln44)> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (1.76ns)   --->   "store i1 true, i1* @dirX, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:47]   --->   Operation 31 'store' <Predicate = (icmp_ln30 & !icmp_ln44 & icmp_ln46)> <Delay = 1.76>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "br label %._crit_edge7" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:47]   --->   Operation 32 'br' <Predicate = (icmp_ln30 & !icmp_ln44 & icmp_ln46)> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (1.76ns)   --->   "br label %10"   --->   Operation 33 'br' <Predicate = (icmp_ln30 & !icmp_ln44)> <Delay = 1.76>
+ST_2 : Operation 34 [1/1] (1.76ns)   --->   "store i1 false, i1* @dirX, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:45]   --->   Operation 34 'store' <Predicate = (icmp_ln30 & icmp_ln44)> <Delay = 1.76>
+ST_2 : Operation 35 [1/1] (1.76ns)   --->   "br label %10" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:45]   --->   Operation 35 'br' <Predicate = (icmp_ln30 & icmp_ln44)> <Delay = 1.76>
+
+State 3 <SV = 2> <Delay = 3.45>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%x_0 = phi i10 [ %x, %._crit_edge ], [ 0, %.preheader.preheader ]"   --->   Operation 36 'phi' 'x_0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%zext_ln31 = zext i10 %x_0 to i32" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 37 'zext' 'zext_ln31' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (1.77ns)   --->   "%icmp_ln31 = icmp eq i10 %x_0, -304" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 38 'icmp' 'icmp_ln31' <Predicate = true> <Delay = 1.77> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%empty_2 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 720, i64 720, i64 720)"   --->   Operation 39 'speclooptripcount' 'empty_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (1.73ns)   --->   "%x = add i10 %x_0, 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 40 'add' 'x' <Predicate = true> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "br i1 %icmp_ln31, label %.loopexit.loopexit, label %1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 41 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (1.77ns)   --->   "%icmp_ln33_1 = icmp ult i10 %x_0, -384" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:33]   --->   Operation 42 'icmp' 'icmp_ln33_1' <Predicate = (!icmp_ln31)> <Delay = 1.77> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 43 [1/1] (0.97ns)   --->   "%and_ln33 = and i1 %icmp_ln33, %icmp_ln33_1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:33]   --->   Operation 43 'and' 'and_ln33' <Predicate = (!icmp_ln31)> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "br i1 %and_ln33, label %2, label %._crit_edge" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:33]   --->   Operation 44 'br' <Predicate = (!icmp_ln31)> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (2.47ns)   --->   "%icmp_ln35 = icmp eq i32 %zext_ln31, %lineX_load" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 45 'icmp' 'icmp_ln35' <Predicate = (!icmp_ln31 & and_ln33)> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.97ns)   --->   "%or_ln35 = or i1 %icmp_ln35, %icmp_ln35_1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 46 'or' 'or_ln35' <Predicate = (!icmp_ln31 & and_ln33)> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 47 [1/1] (0.00ns)   --->   "br i1 %or_ln35, label %3, label %4" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 47 'br' <Predicate = (!icmp_ln31 & and_ln33)> <Delay = 0.00>
+ST_3 : Operation 48 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %outputStream_V, i8 0)" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:37]   --->   Operation 48 'write' <Predicate = (!icmp_ln31 & and_ln33 & !or_ln35)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 49 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %outputStream_V, i8 -1)" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:36]   --->   Operation 49 'write' <Predicate = (!icmp_ln31 & and_ln33 & or_ln35)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "br label %.loopexit"   --->   Operation 50 'br' <Predicate = (icmp_ln31)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 51 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %outputStream_V, i8 0)" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:37]   --->   Operation 51 'write' <Predicate = (and_ln33 & !or_ln35)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 52 [1/1] (0.00ns)   --->   "br label %5"   --->   Operation 52 'br' <Predicate = (and_ln33 & !or_ln35)> <Delay = 0.00>
+ST_4 : Operation 53 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %outputStream_V, i8 -1)" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:36]   --->   Operation 53 'write' <Predicate = (and_ln33 & or_ln35)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 54 [1/1] (0.00ns)   --->   "br label %5" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:36]   --->   Operation 54 'br' <Predicate = (and_ln33 & or_ln35)> <Delay = 0.00>
+ST_4 : Operation 55 [1/1] (0.00ns)   --->   "br label %._crit_edge" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:38]   --->   Operation 55 'br' <Predicate = (and_ln33)> <Delay = 0.00>
+ST_4 : Operation 56 [1/1] (0.00ns)   --->   "br label %.preheader" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31]   --->   Operation 56 'br' <Predicate = true> <Delay = 0.00>
+
+State 5 <SV = 2> <Delay = 2.55>
+ST_5 : Operation 57 [1/1] (0.00ns)   --->   "%empty_3 = phi i32 [ %lineX_load, %._crit_edge7 ], [ 0, %7 ]" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 57 'phi' 'empty_3' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 58 [1/1] (2.47ns)   --->   "%icmp_ln49 = icmp eq i32 %lineY_load, 0" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:49]   --->   Operation 58 'icmp' 'icmp_ln49' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 59 [1/1] (0.00ns)   --->   "br i1 %icmp_ln49, label %11, label %12" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:49]   --->   Operation 59 'br' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 60 [1/1] (2.47ns)   --->   "%icmp_ln51 = icmp eq i32 %lineY_load, 479" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:51]   --->   Operation 60 'icmp' 'icmp_ln51' <Predicate = (!icmp_ln49)> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 61 [1/1] (0.00ns)   --->   "br i1 %icmp_ln51, label %13, label %._crit_edge8" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:51]   --->   Operation 61 'br' <Predicate = (!icmp_ln49)> <Delay = 0.00>
+ST_5 : Operation 62 [1/1] (1.76ns)   --->   "store i1 true, i1* @dirY, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:52]   --->   Operation 62 'store' <Predicate = (!icmp_ln49 & icmp_ln51)> <Delay = 1.76>
+ST_5 : Operation 63 [1/1] (0.00ns)   --->   "br label %._crit_edge8" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:52]   --->   Operation 63 'br' <Predicate = (!icmp_ln49 & icmp_ln51)> <Delay = 0.00>
+ST_5 : Operation 64 [1/1] (1.76ns)   --->   "br label %14"   --->   Operation 64 'br' <Predicate = (!icmp_ln49)> <Delay = 1.76>
+ST_5 : Operation 65 [1/1] (1.76ns)   --->   "store i1 false, i1* @dirY, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:50]   --->   Operation 65 'store' <Predicate = (icmp_ln49)> <Delay = 1.76>
+ST_5 : Operation 66 [1/1] (1.76ns)   --->   "br label %14" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:50]   --->   Operation 66 'br' <Predicate = (icmp_ln49)> <Delay = 1.76>
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%dirX_load = load i1* @dirX, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:58]   --->   Operation 67 'load' 'dirX_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 68 [1/1] (0.00ns) (grouped into LUT with out node add_ln58)   --->   "%select_ln58 = select i1 %dirX_load, i32 -1, i32 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:58]   --->   Operation 68 'select' 'select_ln58' <Predicate = true> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 69 [1/1] (2.55ns) (out node of the LUT)   --->   "%add_ln58 = add i32 %empty_3, %select_ln58" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:58]   --->   Operation 69 'add' 'add_ln58' <Predicate = true> <Delay = 2.55> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 70 [1/1] (0.00ns)   --->   "store i32 %add_ln58, i32* @lineX, align 4" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:59]   --->   Operation 70 'store' <Predicate = true> <Delay = 0.00>
+
+State 6 <SV = 3> <Delay = 2.55>
+ST_6 : Operation 71 [1/1] (0.00ns) (grouped into LUT with out node add_ln62)   --->   "%empty_4 = phi i32 [ %lineY_load, %._crit_edge8 ], [ 0, %11 ]" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35]   --->   Operation 71 'phi' 'empty_4' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 72 [1/1] (0.00ns)   --->   "%dirY_load = load i1* @dirY, align 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:62]   --->   Operation 72 'load' 'dirY_load' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 73 [1/1] (0.00ns) (grouped into LUT with out node add_ln62)   --->   "%select_ln62 = select i1 %dirY_load, i32 -1, i32 1" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:62]   --->   Operation 73 'select' 'select_ln62' <Predicate = true> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 74 [1/1] (2.55ns) (out node of the LUT)   --->   "%add_ln62 = add i32 %empty_4, %select_ln62" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:62]   --->   Operation 74 'add' 'add_ln62' <Predicate = true> <Delay = 2.55> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 75 [1/1] (0.00ns)   --->   "store i32 %add_ln62, i32* @lineY, align 4" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:63]   --->   Operation 75 'store' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 76 [1/1] (0.00ns)   --->   "ret void" [PATTERN_GENERATOR_CROSS/pattern_generator.cpp:66]   --->   Operation 76 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.77ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('y') with incoming values : ('y', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30) [18]  (1.77 ns)
+
+ <State 2>: 2.47ns
+The critical path consists of the following:
+	'phi' operation ('y') with incoming values : ('y', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:30) [18]  (0 ns)
+	'icmp' operation ('icmp_ln35_1', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) [26]  (2.47 ns)
+
+ <State 3>: 3.45ns
+The critical path consists of the following:
+	'phi' operation ('x') with incoming values : ('x', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:31) [29]  (0 ns)
+	'icmp' operation ('icmp_ln35', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) [40]  (2.47 ns)
+	'or' operation ('or_ln35', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) [41]  (0.978 ns)
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+ <State 5>: 2.55ns
+The critical path consists of the following:
+	'phi' operation ('empty_3', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) with incoming values : ('lineX_load', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) [70]  (0 ns)
+	'add' operation ('add_ln58', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:58) [88]  (2.55 ns)
+
+ <State 6>: 2.55ns
+The critical path consists of the following:
+	'phi' operation ('empty_4', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) with incoming values : ('lineY_load', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:35) [85]  (0 ns)
+	'add' operation ('add_ln62', PATTERN_GENERATOR_CROSS/pattern_generator.cpp:62) [92]  (2.55 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
