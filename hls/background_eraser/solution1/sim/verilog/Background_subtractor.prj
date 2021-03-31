@@ -1,0 +1,13 @@
+vhdl xil_defaultlib "ip/xil_defaultlib/Background_subtractor_ap_dcmp_0_no_dsp_64.vhd"
+vhdl xil_defaultlib "ip/xil_defaultlib/Background_subtractor_ap_dmul_4_max_dsp_64.vhd"
+vhdl xil_defaultlib "ip/xil_defaultlib/Background_subtractor_ap_sitodp_4_no_dsp_32.vhd"
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_s_stream_in_V.v"
+sv xil_defaultlib "AESL_axi_s_stream_out_V.v"
+sv xil_defaultlib "AESL_fifo.v"
+sv xil_defaultlib "Background_subtrabkb.v"
+sv xil_defaultlib "Background_subtractor.autotb.v"
+sv xil_defaultlib "Background_subtractor.v"
+sv xil_defaultlib "Background_subtracud.v"
+sv xil_defaultlib "Background_subtradEe.v"
+

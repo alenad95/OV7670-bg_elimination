@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 25 10:01:37 2021
+# Process ID: 2336
+# Current directory: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog/xsim.dir/Background_subtractor/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog/webtalk.log
+# Journal file: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog/xsim.dir/Background_subtractor/webtalk/xsim_webtalk.tcl -notrace

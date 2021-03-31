@@ -1,0 +1,194 @@
+
+
+================================================================
+== Vivado HLS Report for 'Background_subtractor'
+================================================================
+* Date:           Wed Mar 10 08:39:52 2021
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        background_eraser
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     5.399|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +--------+--------+--------+--------+---------+
+    |     Latency     |     Interval    | Pipeline|
+    |   min  |   max  |   min  |   max  |   Type  |
+    +--------+--------+--------+--------+---------+
+    |  615361|  615361|  615361|  615361|   none  |
+    +--------+--------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |             |     Latency     | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min  |   max  |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+        |- Loop 1     |  615360|  615360|      1282|          -|          -|   480|    no    |
+        | + Loop 1.1  |    1280|    1280|         2|          -|          -|   640|    no    |
+        +-------------+--------+--------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 2 
+4 --> 3 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.76>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %stream_new_V), !map !39"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %stream_ref_V), !map !45"   --->   Operation 6 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %enable), !map !49"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %threshold_V), !map !55"   --->   Operation 8 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %pixel_done), !map !59"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %stream_out_V), !map !63"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([22 x i8]* @Background_subtracto) nounwind"   --->   Operation 11 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %threshold_V, [8 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [background_eraser/Background_subtractor.cpp:8]   --->   Operation 12 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i1* %enable, [8 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [background_eraser/Background_subtractor.cpp:9]   --->   Operation 13 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %stream_new_V, [5 x i8]* @p_str2, i32 1, i32 1, [5 x i8]* @p_str3, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1)" [background_eraser/Background_subtractor.cpp:10]   --->   Operation 14 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %stream_ref_V, [5 x i8]* @p_str2, i32 1, i32 1, [5 x i8]* @p_str3, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1)" [background_eraser/Background_subtractor.cpp:11]   --->   Operation 15 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %stream_out_V, [5 x i8]* @p_str2, i32 1, i32 1, [5 x i8]* @p_str3, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1)" [background_eraser/Background_subtractor.cpp:12]   --->   Operation 16 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i1* %pixel_done, [8 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [background_eraser/Background_subtractor.cpp:13]   --->   Operation 17 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (1.76ns)   --->   "br label %.loopexit" [background_eraser/Background_subtractor.cpp:21]   --->   Operation 18 'br' <Predicate = true> <Delay = 1.76>
+
+State 2 <SV = 1> <Delay = 1.82>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%j_0 = phi i9 [ 0, %0 ], [ %j, %.loopexit.loopexit ]"   --->   Operation 19 'phi' 'j_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (1.66ns)   --->   "%icmp_ln21 = icmp eq i9 %j_0, -32" [background_eraser/Background_subtractor.cpp:21]   --->   Operation 20 'icmp' 'icmp_ln21' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 480, i64 480, i64 480)"   --->   Operation 21 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (1.82ns)   --->   "%j = add i9 %j_0, 1" [background_eraser/Background_subtractor.cpp:21]   --->   Operation 22 'add' 'j' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "br i1 %icmp_ln21, label %8, label %.preheader.preheader" [background_eraser/Background_subtractor.cpp:21]   --->   Operation 23 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (1.76ns)   --->   "br label %.preheader" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 24 'br' <Predicate = (!icmp_ln21)> <Delay = 1.76>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "ret void" [background_eraser/Background_subtractor.cpp:51]   --->   Operation 25 'ret' <Predicate = (icmp_ln21)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 5.39>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%i_0 = phi i10 [ %i, %7 ], [ 0, %.preheader.preheader ]"   --->   Operation 26 'phi' 'i_0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%phi_ln47 = phi i1 [ %xor_ln22, %7 ], [ true, %.preheader.preheader ]" [background_eraser/Background_subtractor.cpp:47]   --->   Operation 27 'phi' 'phi_ln47' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (1.77ns)   --->   "%icmp_ln22 = icmp eq i10 %i_0, -384" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 28 'icmp' 'icmp_ln22' <Predicate = true> <Delay = 1.77> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%empty_2 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 640, i64 640, i64 640)"   --->   Operation 29 'speclooptripcount' 'empty_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (1.73ns)   --->   "%i = add i10 %i_0, 1" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 30 'add' 'i' <Predicate = true> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "br i1 %icmp_ln22, label %.loopexit.loopexit, label %1" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 31 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%pixel_new_V = call i8 @_ssdm_op_Read.axis.volatile.i8P(i8* %stream_new_V)" [background_eraser/Background_subtractor.cpp:25]   --->   Operation 32 'read' 'pixel_new_V' <Predicate = (!icmp_ln22)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%pixel_ref_V = call i8 @_ssdm_op_Read.axis.volatile.i8P(i8* %stream_ref_V)" [background_eraser/Background_subtractor.cpp:26]   --->   Operation 33 'read' 'pixel_ref_V' <Predicate = (!icmp_ln22)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%enable_read = call i1 @_ssdm_op_Read.ap_none.volatile.i1P(i1* %enable)" [background_eraser/Background_subtractor.cpp:28]   --->   Operation 34 'read' 'enable_read' <Predicate = (!icmp_ln22)> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "br i1 %enable_read, label %2, label %6" [background_eraser/Background_subtractor.cpp:28]   --->   Operation 35 'br' <Predicate = (!icmp_ln22)> <Delay = 0.00>
+ST_3 : Operation 36 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 %pixel_new_V)" [background_eraser/Background_subtractor.cpp:42]   --->   Operation 36 'write' <Predicate = (!icmp_ln22 & !enable_read)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%lhs_V = zext i8 %pixel_new_V to i9" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 37 'zext' 'lhs_V' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%rhs_V = zext i8 %pixel_ref_V to i9" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 38 'zext' 'rhs_V' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (1.91ns)   --->   "%ret_V = sub i9 %lhs_V, %rhs_V" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 39 'sub' 'ret_V' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 40 [1/1] (1.82ns)   --->   "%neg = sub i9 0, %ret_V" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 40 'sub' 'neg' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (1.66ns)   --->   "%abscond = icmp sgt i9 %ret_V, 0" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 41 'icmp' 'abscond' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 42 [1/1] (0.00ns) (grouped into LUT with out node icmp_ln887)   --->   "%i_op_assign = select i1 %abscond, i9 %ret_V, i9 %neg" [background_eraser/Background_subtractor.cpp:30]   --->   Operation 42 'select' 'i_op_assign' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.96> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%threshold_V_read = call i8 @_ssdm_op_Read.ap_none.i8P(i8* %threshold_V)" [background_eraser/Background_subtractor.cpp:31]   --->   Operation 43 'read' 'threshold_V_read' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.00ns) (grouped into LUT with out node icmp_ln887)   --->   "%zext_ln887 = zext i8 %threshold_V_read to i9" [background_eraser/Background_subtractor.cpp:31]   --->   Operation 44 'zext' 'zext_ln887' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (1.66ns) (out node of the LUT)   --->   "%icmp_ln887 = icmp slt i9 %i_op_assign, %zext_ln887" [background_eraser/Background_subtractor.cpp:31]   --->   Operation 45 'icmp' 'icmp_ln887' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br i1 %icmp_ln887, label %3, label %4" [background_eraser/Background_subtractor.cpp:31]   --->   Operation 46 'br' <Predicate = (!icmp_ln22 & enable_read)> <Delay = 0.00>
+ST_3 : Operation 47 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 %pixel_new_V)" [background_eraser/Background_subtractor.cpp:37]   --->   Operation 47 'write' <Predicate = (!icmp_ln22 & enable_read & !icmp_ln887)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 48 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 -1)" [background_eraser/Background_subtractor.cpp:33]   --->   Operation 48 'write' <Predicate = (!icmp_ln22 & enable_read & icmp_ln887)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "br label %.loopexit"   --->   Operation 49 'br' <Predicate = (icmp_ln22)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 0.97>
+ST_4 : Operation 50 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 %pixel_new_V)" [background_eraser/Background_subtractor.cpp:42]   --->   Operation 50 'write' <Predicate = (!enable_read)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 51 [1/1] (0.00ns)   --->   "br label %7"   --->   Operation 51 'br' <Predicate = (!enable_read)> <Delay = 0.00>
+ST_4 : Operation 52 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 %pixel_new_V)" [background_eraser/Background_subtractor.cpp:37]   --->   Operation 52 'write' <Predicate = (enable_read & !icmp_ln887)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 53 [1/1] (0.00ns)   --->   "br label %5"   --->   Operation 53 'br' <Predicate = (enable_read & !icmp_ln887)> <Delay = 0.00>
+ST_4 : Operation 54 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P(i8* %stream_out_V, i8 -1)" [background_eraser/Background_subtractor.cpp:33]   --->   Operation 54 'write' <Predicate = (enable_read & icmp_ln887)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 55 [1/1] (0.00ns)   --->   "br label %5" [background_eraser/Background_subtractor.cpp:34]   --->   Operation 55 'br' <Predicate = (enable_read & icmp_ln887)> <Delay = 0.00>
+ST_4 : Operation 56 [1/1] (0.00ns)   --->   "br label %7" [background_eraser/Background_subtractor.cpp:39]   --->   Operation 56 'br' <Predicate = (enable_read)> <Delay = 0.00>
+ST_4 : Operation 57 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.volatile.i1P(i1* %pixel_done, i1 %phi_ln47)" [background_eraser/Background_subtractor.cpp:48]   --->   Operation 57 'write' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 58 [1/1] (0.97ns)   --->   "%xor_ln22 = xor i1 %phi_ln47, true" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 58 'xor' 'xor_ln22' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 59 [1/1] (0.00ns)   --->   "br label %.preheader" [background_eraser/Background_subtractor.cpp:22]   --->   Operation 59 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.77ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('j') with incoming values : ('j', background_eraser/Background_subtractor.cpp:21) [22]  (1.77 ns)
+
+ <State 2>: 1.82ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', background_eraser/Background_subtractor.cpp:21) [22]  (0 ns)
+	'add' operation ('j', background_eraser/Background_subtractor.cpp:21) [25]  (1.82 ns)
+
+ <State 3>: 5.4ns
+The critical path consists of the following:
+	axis read on port 'stream_new_V' (background_eraser/Background_subtractor.cpp:25) [37]  (0 ns)
+	'sub' operation ('ret.V', background_eraser/Background_subtractor.cpp:30) [47]  (1.92 ns)
+	'sub' operation ('neg', background_eraser/Background_subtractor.cpp:30) [48]  (1.82 ns)
+	'select' operation ('i_op', background_eraser/Background_subtractor.cpp:30) [50]  (0 ns)
+	'icmp' operation ('icmp_ln887', background_eraser/Background_subtractor.cpp:31) [53]  (1.66 ns)
+
+ <State 4>: 0.978ns
+The critical path consists of the following:
+	'xor' operation ('xor_ln22', background_eraser/Background_subtractor.cpp:22) [65]  (0.978 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

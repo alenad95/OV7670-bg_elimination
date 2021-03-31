@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 25 10:01:49 2021
+# Process ID: 12496
+# Current directory: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog
+# Command line: vivado.exe -source open_wave.tcl
+# Log file: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog/vivado.log
+# Journal file: D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+open_wave_config D:/SmartCamera-master/SmartCamera-master/HLS_COMMON/Background_subtractor/solution1/sim/verilog/Background_subtractor.wcfg
+close_sim

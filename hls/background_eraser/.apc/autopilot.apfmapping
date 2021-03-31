@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Background_subtractor.h" path="D:\Alessandro\Documents\GitHub\Background_eraser\hls\background_eraser\Background_subtractor.h"/>
+    <originFiles name="Background_subtractor.cpp" path="D:\Alessandro\Documents\GitHub\Background_eraser\hls\background_eraser\Background_subtractor.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="Background_subtractor_tb.cpp" path="D:\Alessandro\Documents\GitHub\Background_eraser\hls\background_eraser\Background_subtractor_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

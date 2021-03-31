@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Background_subtractor.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_Background_subtractor_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">stream_out(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_out_V_TREADY" type="logic">
+               <obj_property name="ElementShortName">stream_out_V_TREADY</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_out_V_TVALID" type="logic">
+               <obj_property name="ElementShortName">stream_out_V_TVALID</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_out_V_TDATA" type="array">
+               <obj_property name="ElementShortName">stream_out_V_TDATA[7:0]</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TDATA[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group7" type="group">
+            <obj_property name="label">frame_done(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/frame_done_V" type="array">
+               <obj_property name="ElementShortName">frame_done_V[0:0]</obj_property>
+               <obj_property name="ObjectShortName">frame_done_V[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group9" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group10" type="group">
+            <obj_property name="label">enable(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/enable_V" type="array">
+               <obj_property name="ElementShortName">enable_V[0:0]</obj_property>
+               <obj_property name="ObjectShortName">enable_V[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group12" type="group">
+            <obj_property name="label">stream_in(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_in_V_TREADY" type="logic">
+               <obj_property name="ElementShortName">stream_in_V_TREADY</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_in_V_TVALID" type="logic">
+               <obj_property name="ElementShortName">stream_in_V_TVALID</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/stream_in_V_TDATA" type="array">
+               <obj_property name="ElementShortName">stream_in_V_TDATA[15:0]</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TDATA[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group16" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group21" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group23" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Background_subtractor_top/AESL_inst_Background_subtractor/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group26" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group27" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group28" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/LENGTH_stream_in_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_stream_in_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_stream_in_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/LENGTH_enable_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_enable_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_enable_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/LENGTH_frame_done_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_frame_done_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_frame_done_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/LENGTH_stream_out_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_stream_out_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_stream_out_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group36" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group37" type="group">
+            <obj_property name="label">stream_out(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_out_V_TREADY" type="logic">
+               <obj_property name="ElementShortName">stream_out_V_TREADY</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_out_V_TVALID" type="logic">
+               <obj_property name="ElementShortName">stream_out_V_TVALID</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_out_V_TDATA" type="array">
+               <obj_property name="ElementShortName">stream_out_V_TDATA[7:0]</obj_property>
+               <obj_property name="ObjectShortName">stream_out_V_TDATA[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group41" type="group">
+            <obj_property name="label">frame_done(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/frame_done_V" type="array">
+               <obj_property name="ElementShortName">frame_done_V[0:0]</obj_property>
+               <obj_property name="ObjectShortName">frame_done_V[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group43" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group44" type="group">
+            <obj_property name="label">enable(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/enable_V" type="array">
+               <obj_property name="ElementShortName">enable_V[0:0]</obj_property>
+               <obj_property name="ObjectShortName">enable_V[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group46" type="group">
+            <obj_property name="label">stream_in(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_in_V_TREADY" type="logic">
+               <obj_property name="ElementShortName">stream_in_V_TREADY</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_in_V_TVALID" type="logic">
+               <obj_property name="ElementShortName">stream_in_V_TVALID</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Background_subtractor_top/stream_in_V_TDATA" type="array">
+               <obj_property name="ElementShortName">stream_in_V_TDATA[15:0]</obj_property>
+               <obj_property name="ObjectShortName">stream_in_V_TDATA[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
