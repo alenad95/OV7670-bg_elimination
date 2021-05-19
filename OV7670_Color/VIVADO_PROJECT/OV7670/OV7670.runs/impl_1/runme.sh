@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1'
+HD_PWD='D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

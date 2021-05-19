@@ -2,31 +2,31 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Mar 18 10:22:47 2021
-# Process ID: 30256
-# Current directory: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1
+# Start of session at: Wed May 19 12:46:09 2021
+# Process ID: 19352
+# Current directory: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1
 # Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
-# Log file: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper.vdi
-# Journal file: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1\vivado.jou
+# Log file: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper.vdi
+# Journal file: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Desktop/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/Background_eraser/hls/background_eraser'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/Configurable_Convolution_Filter'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/Sep_Convolution_Filter'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/VIDEO_STREAM_MUX'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/LF_VALID_TO_AXIS'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/FILTER_CONVOLUTION'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/VGA/AXI_STREAM_TO_VGA'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Configurable_Convolution_Filter'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/hls/background_eraser'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Sep_Convolution_Filter'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VIDEO_STREAM_MUX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/LF_VALID_TO_AXIS'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/FILTER_CONVOLUTION'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VGA/AXI_STREAM_TO_VGA'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 425.504 ; gain = 46.434
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 426.551 ; gain = 44.547
 Command: link_design -top design_1_wrapper -part xc7z020clg484-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
@@ -35,127 +35,127 @@ INFO: [Netlist 29-17] Analyzing 2065 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2019.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/reset_100M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/reset_100M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/reset_100M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/reset_100M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
-INFO: [Timing 38-2] Deriving generated clocks [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
-get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1540.605 ; gain = 602.086
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/reset_25M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/reset_25M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/reset_25M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/reset_25M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_board.xdc] for cell 'design_1_i/reset_24M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_board.xdc] for cell 'design_1_i/reset_24M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1.xdc] for cell 'design_1_i/reset_24M/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1.xdc] for cell 'design_1_i/reset_24M/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
-Parsing XDC File [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc]
-WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:9]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:9]
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/reset_100M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/reset_100M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/reset_100M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/reset_100M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1540.855 ; gain = 601.434
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_gen_25M_24M/inst'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/reset_25M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/reset_25M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/reset_25M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/reset_25M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_board.xdc] for cell 'design_1_i/reset_24M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_board.xdc] for cell 'design_1_i/reset_24M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1.xdc] for cell 'design_1_i/reset_24M/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1.xdc] for cell 'design_1_i/reset_24M/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_frame_intr/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_pl_reset/U0'
+Parsing XDC File [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:9]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:10]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:10]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:11]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'ext_reset_in'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:11]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[2]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:62]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[2]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:62]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[1]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:63]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[1]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:63]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:64]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:64]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[2]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:65]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[2]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:65]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[1]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:66]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[1]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:66]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'id_filter[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:67]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:67]
+WARNING: [Vivado 12-584] No ports matched 'id_filter[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:67]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:76]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:76]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:76]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[1]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:77]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:77]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[1]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:77]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[2]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:78]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:78]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[2]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:78]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[3]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:79]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:79]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[3]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:79]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[4]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:80]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:80]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[4]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:80]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[5]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:81]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:81]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[5]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:81]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[6]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:82]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:82]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[6]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:82]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[7]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:83]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:83]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[7]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:83]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TREADY'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:84]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:84]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TREADY'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:84]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[1]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[2]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[3]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[4]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[5]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[6]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[7]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TREADY'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:86]
-CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:86]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/outStream_V_TVALID'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:87]
-CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:87]
-WARNING: [Vivado 12-584] No ports matched 'SWITCH_SD_STREAM[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:92]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:92]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[1]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[2]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[3]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[4]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[5]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[6]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TDATA[7]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:85]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ddr_to_axis_reader_SD_0_outStream_V_TREADY'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:86]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:86]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/outStream_V_TVALID'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:87]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'SWITCH_SD_STREAM[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:92]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SWITCH_SD_STREAM[0]'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:93]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:93]
+WARNING: [Vivado 12-584] No ports matched 'SWITCH_SD_STREAM[0]'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:93]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'cam_sof'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:95]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:95]
+WARNING: [Vivado 12-584] No ports matched 'cam_sof'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:95]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'cam_sof'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:96]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:96]
+WARNING: [Vivado 12-584] No ports matched 'cam_sof'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:96]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ref_sof'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:99]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:99]
+WARNING: [Vivado 12-584] No ports matched 'ref_sof'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:99]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ref_sof'. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:100]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:100]
+WARNING: [Vivado 12-584] No ports matched 'ref_sof'. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc:100]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc]
-Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/processing_system7_0_axi_periph/m06_couplers/auto_cc/inst'
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:7]
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:10]
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:13]
-Finished Parsing XDC File [d:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/processing_system7_0_axi_periph/m06_couplers/auto_cc/inst'
+Finished Parsing XDC File [D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc]
+Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/processing_system7_0_axi_periph/m06_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:13]
+Finished Parsing XDC File [d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/processing_system7_0_axi_periph/m06_couplers/auto_cc/inst'
 Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Finished Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
@@ -285,7 +285,7 @@ Finished Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_fifo/tcl/xpm
 Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst_axis.tcl] for cell 'design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst'
 Finished Sourcing Tcl File [D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst_axis.tcl] for cell 'design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1540.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1540.855 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 9 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
@@ -293,7 +293,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 25 Infos, 37 Warnings, 27 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1540.605 ; gain = 1115.102
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1540.855 ; gain = 1114.305
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -304,13 +304,13 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1540.605 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1540.855 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Cache Timing Information Task | Checksum: 130fb0fae
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1540.605 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1540.855 ; gain = 0.000
 
 Starting Logic Optimization Task
 
@@ -319,7 +319,7 @@ INFO: [Opt 31-138] Pushed 6 inverter(s) to 6 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 25ea9762e
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-389] Phase Retarget created 202 cells and removed 299 cells
 INFO: [Opt 31-1021] In phase Retarget, 20 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -327,34 +327,34 @@ Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 2 inverter(s) to 5 load pin(s).
 Phase 2 Constant propagation | Checksum: 1ae00d0b3
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-389] Phase Constant propagation created 198 cells and removed 1649 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 23 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 19108b6e4
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-389] Phase Sweep created 7 cells and removed 2686 cells
 INFO: [Opt 31-1021] In phase Sweep, 278 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
 Phase 4 BUFG optimization | Checksum: 19108b6e4
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
 Phase 5 Shift Register Optimization | Checksum: 19108b6e4
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
 Phase 6 Post Processing Netlist | Checksum: 19108b6e4
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1634.141 ; gain = 1.047
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 47 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -376,10 +376,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1638.445 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1634.141 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 19383b7e9
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1638.445 ; gain = 0.918
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1634.141 ; gain = 1.047
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -399,53 +399,53 @@ INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
 Number of BRAM Ports augmented: 6 newly gated: 6 Total Ports: 60
 Ending PowerOpt Patch Enables Task | Checksum: 1d17a0f69
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Ending Power Optimization Task | Checksum: 1d17a0f69
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 2040.602 ; gain = 402.156
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 2041.047 ; gain = 406.906
 
 Starting Final Cleanup Task
 Ending Final Cleanup Task | Checksum: 1d17a0f69
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Ending Netlist Obfuscation Task | Checksum: 11a80f9c7
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 53 Infos, 37 Warnings, 27 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:27 . Memory (MB): peak = 2040.602 ; gain = 499.996
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2040.602 ; gain = 0.000
+opt_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 2041.047 ; gain = 500.191
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Writing placer database...
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 2040.602 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2041.047 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Desktop/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/Background_eraser/hls/background_eraser'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/Configurable_Convolution_Filter'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/Sep_Convolution_Filter'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/VIDEO_STREAM_MUX'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/LF_VALID_TO_AXIS'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/FILTERS/FILTER_CONVOLUTION'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SmartCamera-master/HLS_COMMON/VGA/AXI_STREAM_TO_VGA'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Configurable_Convolution_Filter'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/hls/background_eraser'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Sep_Convolution_Filter'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VIDEO_STREAM_MUX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/LF_VALID_TO_AXIS'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/FILTER_CONVOLUTION'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VGA/AXI_STREAM_TO_VGA'.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_drc_opted.rpt.
 report_drc completed successfully
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
@@ -489,18 +489,18 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: eba3059d
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2040.602 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.067 . Memory (MB): peak = 2041.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 WARNING: [Place 30-568] A LUT 'design_1_i/OV7670_GRAYSCALE_TO_AXIS/ov7670_interface_0/inst/frame_valid_V[0]_INST_0' is driving clock pin of 5 registers. This could lead to large hold time violations. First few involved registers are:
 	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] {FDRE}
 	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] {FDRE}
-	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] {FDRE}
 	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] {FDRE}
+	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] {FDRE}
 	design_1_i/OV7670_GRAYSCALE_TO_AXIS/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/i_out_q_thresh0.q_thresh0_i_reg {FDRE}
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
@@ -510,27 +510,27 @@ WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. T
 Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 3ba34921
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 1990d66d3
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 1990d66d3
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 1 Placer Initialization | Checksum: 1990d66d3
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
 Phase 2.1 Floorplanning | Checksum: 1124bc2dc
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 2.2 Global Placement Core
 
@@ -546,7 +546,7 @@ INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found i
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -566,58 +566,58 @@ Summary of Physical Synthesis Optimizations
 
 Phase 2.2.1 Physical Synthesis In Placer | Checksum: 171fd74fa
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:24 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 2.2 Global Placement Core | Checksum: 15fc1c93c
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:25 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 2 Global Placement | Checksum: 15fc1c93c
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:25 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 1d0c29e05
 
-Time (s): cpu = 00:00:40 ; elapsed = 00:00:26 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:24 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 215c8129c
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:28 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 1ceb07347
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:28 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 267fe5974
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.5 Fast Optimization
 Phase 3.5 Fast Optimization | Checksum: 1bfc1b342
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:31 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:29 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
 Phase 3.6 Small Shape Detail Placement | Checksum: 1d59336f6
 
-Time (s): cpu = 00:00:54 ; elapsed = 00:00:37 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:36 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
 Phase 3.7 Re-assign LUT pins | Checksum: 1ae23e1b1
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:00:39 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:38 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
 Phase 3.8 Pipeline Register Optimization | Checksum: 1b66a5ae9
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:00:39 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:38 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 3 Detail Placement | Checksum: 1b66a5ae9
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:00:40 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:38 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -631,54 +631,54 @@ Phase 4.1.1.1 BUFG Insertion
 INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
 Phase 4.1.1.1 BUFG Insertion | Checksum: 1810ffa3d
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:43 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:42 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [Place 30-746] Post Placement Timing Summary WNS=0.562. For the most accurate timing information please run report_timing.
 Phase 4.1.1 Post Placement Optimization | Checksum: 575cbb4f
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 4.1 Post Commit Optimization | Checksum: 575cbb4f
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: 575cbb4f
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
 Phase 4.3 Placer Reporting | Checksum: 575cbb4f
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 4.4 Final Placement Cleanup | Checksum: 10ce65d3d
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 10ce65d3d
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Ending Placer Task | Checksum: 10c604cb3
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 97 Infos, 64 Warnings, 27 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:01:05 ; elapsed = 00:00:47 . Memory (MB): peak = 2040.602 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2040.602 ; gain = 0.000
+place_design: Time (s): cpu = 00:01:02 ; elapsed = 00:00:45 . Memory (MB): peak = 2041.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 2040.602 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 2041.047 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file design_1_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 2040.602 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.773 . Memory (MB): peak = 2040.602 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.801 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -701,7 +701,7 @@ Checksum: PlaceDB: 16fd855d ConstDB: 0 ShapeSum: f562c756 RouteDB: 0
 Phase 1 Build RT Design
 Phase 1 Build RT Design | Checksum: 106a7e23b
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 2041.047 ; gain = 0.000
 Post Restoration Checksum: NetGraph: b95d4df5 NumContArr: 4d4a9446 Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
@@ -709,23 +709,23 @@ Phase 2 Router Initialization
 Phase 2.1 Create Timer
 Phase 2.1 Create Timer | Checksum: 106a7e23b
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
 Phase 2.2 Fix Topology Constraints | Checksum: 106a7e23b
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
 Phase 2.3 Pre Route Cleanup | Checksum: 106a7e23b
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:23 . Memory (MB): peak = 2041.047 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
 Phase 2.4 Update Timing | Checksum: 22c314af4
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:00:30 . Memory (MB): peak = 2040.602 ; gain = 0.000
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:27 . Memory (MB): peak = 2041.047 ; gain = 0.000
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.690  | TNS=0.000  | WHS=-0.240 | THS=-193.603|
 
 
@@ -734,15 +734,15 @@ Phase 2.5 Update Timing for Bus Skew
 Phase 2.5.1 Update Timing
 Phase 2.5.1 Update Timing | Checksum: 29fcc68d6
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:32 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 2093.770 ; gain = 52.723
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.690  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
 Phase 2.5 Update Timing for Bus Skew | Checksum: 1e61a64e3
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:32 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 2093.770 ; gain = 52.723
 Phase 2 Router Initialization | Checksum: 240c120be
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:32 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:30 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Router Utilization Summary
   Global Vertical Routing Utilization    = 0.00201926 %
@@ -760,7 +760,7 @@ Router Utilization Summary
 Phase 3 Initial Routing
 Phase 3 Initial Routing | Checksum: 1cb37bb7a
 
-Time (s): cpu = 00:00:46 ; elapsed = 00:00:35 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:32 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 4 Rip-up And Reroute
 
@@ -774,7 +774,7 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.096  | TNS=0.000  | WHS
 
 Phase 4.1 Global Iteration 0 | Checksum: 17ba3f87b
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:39 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 4.2 Global Iteration 1
  Number of Nodes with overlaps = 10
@@ -783,10 +783,10 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.096  | TNS=0.000  | WHS
 
 Phase 4.2 Global Iteration 1 | Checksum: 1ca6c0fb2
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 2093.770 ; gain = 52.723
 Phase 4 Rip-up And Reroute | Checksum: 1ca6c0fb2
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 5 Delay and Skew Optimization
 
@@ -795,20 +795,20 @@ Phase 5.1 Delay CleanUp
 Phase 5.1.1 Update Timing
 Phase 5.1.1 Update Timing | Checksum: 1539b84a3
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:40 . Memory (MB): peak = 2093.770 ; gain = 52.723
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.211  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
 Phase 5.1 Delay CleanUp | Checksum: e8d739b5
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:40 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: e8d739b5
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:40 . Memory (MB): peak = 2093.770 ; gain = 52.723
 Phase 5 Delay and Skew Optimization | Checksum: e8d739b5
 
-Time (s): cpu = 00:00:58 ; elapsed = 00:00:42 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:40 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 6 Post Hold Fix
 
@@ -817,15 +817,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: f0c5346d
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:41 . Memory (MB): peak = 2093.770 ; gain = 52.723
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.211  | TNS=0.000  | WHS=0.018  | THS=0.000  |
 
 Phase 6.1 Hold Fix Iter | Checksum: 17751af44
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2093.770 ; gain = 52.723
 Phase 6 Post Hold Fix | Checksum: 17751af44
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 7 Route finalize
 
@@ -843,19 +843,19 @@ Router Utilization Summary
 
 Phase 7 Route finalize | Checksum: 1b92b122d
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 1b92b122d
 
-Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:41 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 1e014bb56
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:46 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:44 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=1.211  | TNS=0.000  | WHS=0.018  | THS=0.000  |
@@ -863,39 +863,39 @@ INFO: [Route 35-57] Estimated Timing Summary | WNS=1.211  | TNS=0.000  | WHS=0.0
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 Phase 10 Post Router Timing | Checksum: 1e014bb56
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:47 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:44 . Memory (MB): peak = 2093.770 ; gain = 52.723
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:47 . Memory (MB): peak = 2095.035 ; gain = 54.434
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:44 . Memory (MB): peak = 2093.770 ; gain = 52.723
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 117 Infos, 65 Warnings, 27 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:06 ; elapsed = 00:00:49 . Memory (MB): peak = 2095.035 ; gain = 54.434
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2095.035 ; gain = 0.000
+route_design: Time (s): cpu = 00:01:03 ; elapsed = 00:00:46 . Memory (MB): peak = 2093.770 ; gain = 52.723
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2093.770 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 2095.035 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2095.035 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 2093.770 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2093.770 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_drc_routed.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 2095.035 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2094.445 ; gain = 0.676
 INFO: [runtcl-4] Executing : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2155.066 ; gain = 60.031
+report_methodology: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 2143.949 ; gain = 49.504
 INFO: [runtcl-4] Executing : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -904,7 +904,7 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 129 Infos, 65 Warnings, 27 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2155.066 ; gain = 0.000
+report_power: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2149.750 ; gain = 5.801
 INFO: [runtcl-4] Executing : report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
@@ -1010,7 +1010,7 @@ WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/VDM
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENBWREN (net: design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (design_1_i/background_eraser/pixel_counter_camera/inst/FSM_sequential_cs_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENBWREN (net: design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (design_1_i/background_eraser/stream_aligner_new_f_0/inst/FSM_sequential_cs_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENBWREN (net: design_1_i/VDMA/axis_data_fifo_reader_ref/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (design_1_i/background_eraser/stream_aligner_new_f_0/inst/FSM_sequential_cs_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC RTSTAT-10] No routable loads: 47 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb... and (the first 15 of 47 listed).
+WARNING: [DRC RTSTAT-10] No routable loads: 47 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, design_1_i/VDMA/axi_mem_intercon_writer/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/OV7670_GRAYSCALE_TO_AXIS/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/VDMA/axi_mem_intercon_reader/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb... and (the first 15 of 47 listed).
 INFO: [Vivado 12-3199] DRC finished with 0 Errors, 83 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
 INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
@@ -1026,5 +1026,5 @@ INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK 
 INFO: [Common 17-83] Releasing license: Implementation
 153 Infos, 149 Warnings, 27 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 2557.965 ; gain = 402.898
-INFO: [Common 17-206] Exiting Vivado at Thu Mar 18 10:26:54 2021...
+write_bitstream: Time (s): cpu = 00:00:31 ; elapsed = 00:00:30 . Memory (MB): peak = 2561.898 ; gain = 412.148
+INFO: [Common 17-206] Exiting Vivado at Wed May 19 12:50:08 2021...

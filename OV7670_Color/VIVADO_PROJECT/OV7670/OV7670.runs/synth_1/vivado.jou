@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Mar 18 10:18:17 2021
-# Process ID: 19504
-# Current directory: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1
+# Start of session at: Wed May 19 12:41:50 2021
+# Process ID: 17004
+# Current directory: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
-# Log file: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1/design_1_wrapper.vds
-# Journal file: D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1\vivado.jou
+# Log file: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace

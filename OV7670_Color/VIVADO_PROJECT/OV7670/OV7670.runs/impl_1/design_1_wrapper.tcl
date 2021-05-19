@@ -60,7 +60,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {HDL-1065} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
@@ -71,33 +70,33 @@ set rc [catch {
   set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.cache/wt [current_project]
-  set_property parent.project_path D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.xpr [current_project]
+  set_property webtalk.parent_dir D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.cache/wt [current_project]
+  set_property parent.project_path D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.xpr [current_project]
   set_property ip_repo_paths {
-  D:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE
-  D:/Alessandro/Desktop/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS
-  D:/Alessandro/Documents/GitHub/Background_eraser/hls/background_eraser
-  D:/SmartCamera-master/HLS_COMMON/FILTERS/Configurable_Convolution_Filter
-  D:/SmartCamera-master/HLS_COMMON/FILTERS/Sep_Convolution_Filter
-  D:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA
-  D:/SmartCamera-master/HLS_COMMON/VIDEO_STREAM_MUX
-  D:/SmartCamera-master/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE
-  D:/SmartCamera-master/HLS_COMMON/LF_VALID_TO_AXIS
-  D:/SmartCamera-master/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE
-  D:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE
-  D:/SmartCamera-master/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD
-  D:/SmartCamera-master/HLS_COMMON/FILTERS/FILTER_CONVOLUTION
-  D:/SmartCamera-master/HLS_COMMON/VGA/AXI_STREAM_TO_VGA
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_INTERFACE
+  d:/Alessandro/Desktop/SmartCamera-master/HLS_COMMON/PATTERN_GENERATORS/PATTERN_GENERATOR_CROSS
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Configurable_Convolution_Filter
+  D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/hls/background_eraser
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/Sep_Convolution_Filter
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_LUMA_CHROMA
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VIDEO_STREAM_MUX
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_HLS/OV7670_GRAYSCALE
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/LF_VALID_TO_AXIS
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/AXIS_TO_DDR_WRITER_AXILITE
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/DDR/DDR_TO_AXIS_READER_AXILITE_SD
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/FILTERS/FILTER_CONVOLUTION
+  d:/Alessandro/Documents/GitHub/OV7670-bg_elimination/HLS_COMMON/VGA/AXI_STREAM_TO_VGA
 } [current_project]
   update_ip_catalog
   set_property ip_cache_permissions disable [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/design_1.bd
+  add_files D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
-  read_xdc D:/SmartCamera-master/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc
+  read_xdc D:/Alessandro/Documents/GitHub/OV7670-bg_elimination/OV7670_Color/VIVADO_PROJECT/OV7670/OV7670.srcs/constrs_1/new/constraints.xdc
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7z020clg484-1
   set_param project.isImplRun false
